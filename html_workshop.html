@@ -32,9 +32,22 @@
       border: #ddd;
       border-width: 1px;
       border-style: solid;
-      border-radius: 1px;
+      border-radius: 5px;
     }
-    
+    .product-image {
+      height: auto;
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .email-field{
+      margin-bottom: 15px;
+    }
+    button{
+      background: #4CAF50;
+      color: #fff;
+      padding: 5px;
+      border: none;
+    }
   </style>
   <head>
     <meta charset="UTF-8" />
@@ -53,7 +66,7 @@
       <section id="products">
         <div class="product">
           <h3>Kirin Horn</h3>
-          <img src="placeholder-600x400.png" alt="#" />
+          <img class="product-image" src="placeholder-600x400.png" alt="#" />
           <p>Product Description</p>
           <ul>
             <li>Price: 499.999 Zenys</li>
@@ -61,12 +74,12 @@
             <li>Rating: 4.5/5</li>
             <li>Electrifies you.</li>
           </ul>
-          <div>Email: billybob@monsterhunter.com</div>
+          <div class="email-field">Email: billybob@monsterhunter.com</div>
           <button type="button">View Details</button>
         </div>
         <div class="product">
           <h3>Bigfoot Hair</h3>
-          <img src="placeholder-600x400.png" alt="#" />
+          <img class="product-image" src="placeholder-600x400.png" alt="#" />
           <p>Product Description</p>
           <ul>
             <li>Price: 15000 Zenys/bundle</li>
@@ -74,7 +87,7 @@
             <li>Rating: 4.5/5</li>
             <li>Waterproof.</li>
           </ul>
-          <div>Email: billybob@monsterhunter.com</div>
+          <div class="email-field">Email: billybob@monsterhunter.com</div>
           <button type="button">View Details</button>
         </div>
       </section>
